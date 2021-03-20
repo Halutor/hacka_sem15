@@ -1,0 +1,103 @@
+.main, .searching {
+    display: flex;
+    justify-content: center;
+    background: skyblue;
+
+    &__portada {
+        width: 50%;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        color: $fisrtcolor;
+    }
+
+    &__search {
+        display: flex;
+    }
+}
+
+
+.principalNew {
+    display: flex;
+
+    &__footer {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+            }
+
+    &__footautor {
+        display: inline;
+        align-content: center;
+    }
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+.active {
+    background-color: aqua;
+}
+
+.gallery-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    border-radius: 4px;
+    overflow: hidden;
+    width: 30%;
+    margin-bottom: 1em;
+    box-shadow: 1px 1px 4px rgba(71, 71, 71, 0.5);
+}
+
+.card-caption {
+    padding: 1em;
+}
+.card-btn {
+    display: block;
+    background-color: rgb(111, 216, 111);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.5em;
+    border-radius: 4px;
+    transition: all 0.7s;
+}
+.card-btn:hover {
+    background-color: rgb(11, 153, 11);
+}
+.canasta {
+    border-radius: 4px;
+    padding: 1em;
+    box-shadow: 1px 1px 4px rgba(71, 71, 71, 0.5);
+}
+
+
+.card--imagen {
+    width:300px;
+    height:200px;
+   }
+
